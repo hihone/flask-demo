@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<form method="post" action="{{ url_for('login.sign_in') }}">
+<div>用户名：<input type="text" name="username" value="hihone"></div>
+<div>密码：<input type="password" name="password" value="123456"></div>
+    <button type="submit">登录</button>
+</form>
+</body>
+</html>

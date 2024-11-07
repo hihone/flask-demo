@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<div>
+    <p>id: {{ id }}</p>
+    <p>{{request.url}}</p>
+    <p>{{request.path}}</p>
+    <p>{{request.method}}</p>
+    <a href="{{url_for('view_demo.index')}}">前往首页</a>
+</div>
+
+</body>
+</html>
